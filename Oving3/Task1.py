@@ -1,9 +1,11 @@
 def testingFunctions(temp):
     if temp <= 0:
         print("Kaldt vintervær")
-    elif temp >= 1 and temp <= 9:
+    elif temp < 10:
         print("Typisk trøndervær")
-    elif temp >= 10:
-        print("sommerVær")
+    else: 
+        print("sommervær")
 
-testingFunctions(4)
+degrees = int(input("Hvor mange greder er det? : "))
+
+testingFunctions(degrees)
