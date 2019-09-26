@@ -1,1 +1,0 @@
-Hey, this is Øving 3!
