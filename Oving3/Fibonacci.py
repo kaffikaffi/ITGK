@@ -6,6 +6,7 @@ def fibonacci(k):
     n2 = 1
 
     fibList = [0,1]
+
     for i in range(0 , k-1):
         fibonacciNumber = n1 + n2
         n1 = n2
@@ -20,3 +21,4 @@ print(str(fibonacci(number)))
 print("summen av listen er " + result)
  
 fibonacci(number)
+
