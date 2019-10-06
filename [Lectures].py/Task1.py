@@ -8,4 +8,4 @@ def testingFunctions(temp):
 
 degrees = int(input("Hvor mange greder er det? : "))
 
-testingFunctions(degrees)
+testingFunctions(degrees) 
